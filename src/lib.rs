@@ -43,7 +43,7 @@
 //!
 
 #![allow(clippy::transmute_ptr_to_ptr)]
-#![cfg_attr(all(not(test), not(feature = "std")), no_std)]
+#![cfg_attr(not(test), no_std)]
 #![deny(missing_docs)]
 
 mod abi_transferable;

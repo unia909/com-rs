@@ -16,10 +16,7 @@ readme = "./README.md"
 com_macros = { version = "0.6", path = "macros" }
 
 [features]
-default = ["std"]
-# Production requires std because production::registration uses CString.
-production = ["std"]
-std = []
+production = []
 
 [[test]]
 name = "tests"
